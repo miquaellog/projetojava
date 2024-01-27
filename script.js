@@ -37,7 +37,9 @@ console.log(user.length)
    let index = +prompt(`digite o index que voçe quer acessar de (0 a ${user.length -1})`)
    alert (`o elemento de index ${index} e ${user[index]}.O primeiro elemento desse array é ${user[0]}. e o ultimo elemento é ${user[user.legth -1]} `);
 }
-
+//solicitar um numero para o usuario e gerar a tabuada daquele numero 
+// numDigitado x contador = calculo
+//5 x 10 = 50
 function Helloworld10(){
    for (let contador = 1; contador <= 10; contador = contador + 1) {
       console.log("Hello, world")
